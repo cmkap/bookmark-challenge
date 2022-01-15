@@ -34,4 +34,17 @@ describe Bookmark do
       expect(bookmark.title).to eq 'Test Bookmark'
     end
   end
+
+  describe '.delete' do
+    it 'deletes the given bookmark' do
+      #setup-arrange
+      bookmark = Bookmark.create(title: 'NBA', url: 'http://www.nba.com')
+      #exercise-act
+      Bookmark.delete(id: bookmark.id)
+      #verify-assert
+      expect(Bookmark.all.length).to eq 0
+      #teardown
+    end
+  end
+
 end
