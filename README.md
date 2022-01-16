@@ -22,6 +22,12 @@ As a user
 So that I can make interesting notes
 I want to add a Comment to a Bookmark
 ```
+
+```
+As a user
+So that I can find relevant bookmarks
+I want to filter Bookmarks by a Tag
+```
 ## Domain Model
 
 ![Bookmark Manager domain model]
