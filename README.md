@@ -12,6 +12,11 @@ So that I can keep my bookmarks up to date
 I want to edit a bookmark
 ```
 
+```
+As a user
+So that the bookmarks I save are useful
+I want to only save a valid URL
+```
 ## Domain Model
 
 ![Bookmark Manager domain model]
