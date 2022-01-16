@@ -17,6 +17,11 @@ As a user
 So that the bookmarks I save are useful
 I want to only save a valid URL
 ```
+
+As a user
+So that I can make interesting notes
+I want to add a Comment to a Bookmark
+```
 ## Domain Model
 
 ![Bookmark Manager domain model]
@@ -27,6 +32,13 @@ a Controller
 a Bookmark class
 A bookmark view
 
+## Entity Relationship Diagram
+
+The below diagram indicates that:
+- A Bookmark *has many* Comments
+- A Comment *belongs to* a Bookmark
+
+![Bookmark Manager entity relation diagram]
 ## How to use
 
 ### To set up the database
